@@ -86,8 +86,8 @@ Posibles errores
 ================
 
     >>> import pyart
-/usr/lib/pymodules/python2.7/mpl_toolkits/__init__.py:2: UserWarning: Module dap was already imported from None, but /usr/lib/python2.7/dist-packages is being added to sys.path
-  __import__('pkg_resources').declare_namespace(__name__)
+    /usr/lib/pymodules/python2.7/mpl_toolkits/__init__.py:2: UserWarning: Module dap was already imported from None, but /usr/lib/python2.7/dist-packages is being added to sys.path
+      __import__('pkg_resources').declare_namespace(__name__)
 
 Se arregla editando: 
 
