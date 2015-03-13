@@ -1,9 +1,8 @@
-.. -*- mode: rst -*-
 
 Instalar en Ubuntu/Debian
 =========================
 
-Antes de esto ver los requerimientos en `PyARt <https://github.com/ARM-DOE/pyart>` y los requerimientos ad-hoc acá.
+Antes de esto ver los requerimientos en PyARt https://github.com/ARM-DOE/pyart y los requerimientos ad-hoc acá.
 
     git clone https://github.com/ARM-DOE/pyart.git
     cd pyart/
@@ -16,7 +15,7 @@ Requerimientos ad-hoc!
 RSL es un paquete de TRMM
 -------------------------
 
-Descargarlo desde `Aquí <http://trmm-fc.gsfc.nasa.gov/trmm_gv/software/rsl/>`
+Descargarlo desde http://trmm-fc.gsfc.nasa.gov/trmm_gv/software/rsl/
 
     tar xvfz rsl-v1.47.tar.gz 
     cd rsl-v1.47/
@@ -33,11 +32,12 @@ Dependencias de netCDF:
 
     sudo apt-get install libhdf5-dev libhdf4-dev libnetcdf-dev
 
-Descargar el netCDF desde `aquí <https://pypi.python.org/pypi/netCDF4>`
+Descargar el netCDF desde https://pypi.python.org/pypi/netCDF4
 
     tar xvfz netCDF4-1.1.6.tar.gz 
     cd netCDF4-1.1.6/
     sudo python setup.py install
+
 
 Instalar Basmap
 ---------------
