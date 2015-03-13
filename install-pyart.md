@@ -2,7 +2,7 @@
 Instalar en Ubuntu/Debian
 =========================
 
-Antes de esto ver los requerimientos en PyARt https://github.com/ARM-DOE/pyart y los requerimientos ad-hoc acá.
+Antes de esto ver los requerimientos en PyART https://github.com/ARM-DOE/pyart y los requerimientos ad-hoc acá.
 
     git clone https://github.com/ARM-DOE/pyart.git
     cd pyart/
