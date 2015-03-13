@@ -29,9 +29,18 @@ Instalar netCDF
 ---------------
 
 Dependencias de netCDF:
-
+Debian:
     sudo apt-get install libhdf5-dev libhdf4-dev libnetcdf-dev
 
+Ubuntu:
+    sudo apt-get install libhdf4-dev libnetcdf-dev libhdf5-serial-dev
+
+    Descargar el hdf5 desde http://www.hdfgroup.org/ftp/HDF5/current/src/    
+        ./configure 
+        make 
+        sudo make install
+    
+    
 Descargar el netCDF desde https://pypi.python.org/pypi/netCDF4
 
     tar xvfz netCDF4-1.1.6.tar.gz 
@@ -56,11 +65,14 @@ así:
     sudo ln -s libgeos-3.3.3.so libgeos.so
     sudo ln -s libgeos-3.3.3.so libgeos.so1
 
-Ahora si, instalar basemap
+Ahora si, instalar basemap:
 
+Debian:
     tar xvfz basemap-1.0.7.tar.gz
     cd basemap-1.0.7/
     python setup.py build
     python setup.py install
 
+Ubuntu:
+    sudo apt-get install python-mpltoolkits.basemap
 
