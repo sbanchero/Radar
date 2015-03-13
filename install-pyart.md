@@ -82,3 +82,15 @@ Ubuntu:
 
     sudo apt-get install python-mpltoolkits.basemap
 
+Posibles errores
+================
+
+    >>> import pyart
+/usr/lib/pymodules/python2.7/mpl_toolkits/__init__.py:2: UserWarning: Module dap was already imported from None, but /usr/lib/python2.7/dist-packages is being added to sys.path
+  __import__('pkg_resources').declare_namespace(__name__)
+
+Se arregla editando: 
+
+    sudo geany /usr/lib/python2.7/dist-packages/dap-2.2.6.7.egg-info/namespace_packages.txt
+    
+    agregar dap en primera linea
