@@ -30,8 +30,9 @@ Instalar netCDF
 
 Dependencias de netCDF:
 
-Debian:
-    sudo apt-get install libhdf5-dev libhdf4-dev libnetcdf-dev
+    Debian:
+        
+        sudo apt-get install libhdf5-dev libhdf4-dev libnetcdf-dev
 
 Ubuntu:
 
