@@ -72,11 +72,13 @@ así:
 Ahora si, instalar basemap:
 
 Debian:
+
     tar xvfz basemap-1.0.7.tar.gz
     cd basemap-1.0.7/
     python setup.py build
     python setup.py install
 
 Ubuntu:
+
     sudo apt-get install python-mpltoolkits.basemap
 
