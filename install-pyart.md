@@ -94,3 +94,12 @@ Se arregla editando:
     sudo geany /usr/lib/python2.7/dist-packages/dap-2.2.6.7.egg-info/namespace_packages.txt
     
     agregar dap en primera linea
+
+
+
+Otros problemas
+==============
+
+Basemap: En algunas versiones trunca la latitud y no es posible agregarlas en los ejes.
+
+
